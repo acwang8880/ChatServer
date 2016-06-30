@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpMessenger", "CSharpMessenger\CSharpMessenger.csproj", "{EA3E5908-1433-4F86-8A5D-584D8CE87A1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer", "CSharpMessenger\ChatServer.csproj", "{EA3E5908-1433-4F86-8A5D-584D8CE87A1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "ChatClient\ChatClient.csproj", "{7636BFA3-07A7-4435-AB75-B7AA54FA6CC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EA3E5908-1433-4F86-8A5D-584D8CE87A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA3E5908-1433-4F86-8A5D-584D8CE87A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA3E5908-1433-4F86-8A5D-584D8CE87A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7636BFA3-07A7-4435-AB75-B7AA54FA6CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7636BFA3-07A7-4435-AB75-B7AA54FA6CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7636BFA3-07A7-4435-AB75-B7AA54FA6CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7636BFA3-07A7-4435-AB75-B7AA54FA6CC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
